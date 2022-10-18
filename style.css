@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+}
+
+.container{
+        width: 550px;
+        height: 450px;
+        /* border: 2px solid; */
+        /* border-radius: 20px; */
+        background-color: white;
+
+
+}
+
+.main-heading{
+    font-size: 1.1rem;
+    margin: 0 auto;
+    background-color: orange;
+    color: aliceblue;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.main-content{
+    width: 100%;
+    height: 350px;
+    /* margin: 20px 15px; */
+    background: aliceblue;
+    border: 2px solid blanchedalmond;
+    border-radius: 0 0 10px 10px;
+   
+}
+
+#quote{
+  margin: 30px auto;
+  font-size: 1.2rem;
+  width: 80%;
+  background-color: wheat;
+  line-height: 30px;
+    
+}
+#person{
+    width: 50%;
+    margin: 25px auto;
+    font-size: 1.5rem;
+    color: purple;
+
+}
+
+.btn{
+
+    margin: 50px auto;
+    padding:10px 10px;
+    width: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: antiquewhite;
+    background-color: gray;
+    box-shadow: 0 0 10px 10px;
+    border-radius: 10px;
+    
+}
+.btn:active{
+    background-color: white;
+    color: black;
+}
